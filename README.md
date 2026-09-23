@@ -16,4 +16,9 @@ Si el jugador entra en contacto con una moneda esto sumaria un +1 en el puntaje 
 Si el jugador toca el fondo del mapa se reiniciaría hasta 3 veces y a la siguiente se mostraría game over siempre que el jugador cae o pierde reiniciar el mapa.
 Poner una puerta final para ganar y mostrar HAS GANADO.
 
-Se ejecuta en el navegador usando un motor con un compilador JIT. 
+Archivos a generar:
+   - index.html: Estructura base con un elemento canvas donde se renderiza el juego y el diseño/estilos CSS básicos.
+   - game.js: Código JavaScript completo con las clases del Jugador, Plataformas, Monedas, Puerta, sistema de colisiones y Game Loop.
+Ejecución y despliegue:
+   - El juego debe ejecutarse localmente abriendo index.html en cualquier navegador web moderno sin necesidad de servidores externos.
+  
