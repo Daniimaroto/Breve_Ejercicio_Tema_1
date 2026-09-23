@@ -16,3 +16,4 @@ Si el jugador entra en contacto con una moneda esto sumaria un +1 en el puntaje 
 Si el jugador toca el fondo del mapa se reiniciaría hasta 3 veces y a la siguiente se mostraría game over siempre que el jugador cae o pierde reiniciar el mapa.
 Poner una puerta final para ganar y mostrar HAS GANADO.
 
+Se ejecuta en el navegador usando un motor con un compilador JIT. 
