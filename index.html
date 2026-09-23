@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Plataformas - Daniel Maroto</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        canvas {
+            border: 4px solid #ffffff;
+            background-color: #87CEEB;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+        .instructions {
+            margin-top: 15px;
+            text-align: center;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Juego de Plataformas</h1>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    
+    <div class="instructions">
+        <p>Controles: Flechas izquierda/derecha para moverte | Barra espaciadora para saltar</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
